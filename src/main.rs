@@ -8,6 +8,7 @@ use std::cell::*;
 use std::borrow::*;
 use std::iter::zip;
 use std::env;
+use std::iter::FromIterator;
 
 #[allow(non_camel_case_types)]
 enum Var{
