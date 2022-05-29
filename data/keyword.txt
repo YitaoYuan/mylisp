@@ -1,0 +1,15 @@
+define
+begin
+if
+
+
+printint
+printchar
+array
+
+
++ - * / % 
+= [] []=
+> < >= <= != == 
+&& || ! 
+& | ~ ^ 

@@ -1,0 +1,13 @@
+(begin 
+	(printint (|| 2 3))
+	(printint (| 2 3))
+	(printint (&& 2 3))
+	(printint (& 2 3))
+	(printint (!= 1 2))
+	(printint (! 2))
+	(printint (~ (- 0 2)))
+	(printchar 10)
+	(= answer 1312101)
+	(printint answer)
+	(printchar 10)
+)
