@@ -4,8 +4,6 @@
 
 本次实践使用rust实现了一个lisp解释器，它能接收的语言与标准的lisp有所不同，是一个个性化的lisp方言，具体表现在:(1)支持了数组，可以下标访问，可以轻易嵌套，可变长，并且数组元素类型可变。(2)丰富而简洁的运算符支持。(3)类似python的传引用风格。
 
-代码位于[YitaoYuan/mylisp (github.com)](https://github.com/YitaoYuan/mylisp)。
-
 ## 2 具体功能
 
 ### 2.1 运算符
@@ -112,9 +110,3 @@ C
 5 9
 11 19
 ```
-
-## 附录
-
-![1](C:\Users\86133\Desktop\homework\6\rust\mylisp\1.png)
-
-![2](C:\Users\86133\Desktop\homework\6\rust\mylisp\2.png)
