@@ -358,6 +358,8 @@ fn run_op(name: &String, params_value: Vec<Rc<RefCell<Var>>>) -> Rc<RefCell<Var>
                         "&" => x & y,
                         "|" => x | y,
                         "^" => x ^ y,
+                        "<<" => x << y,
+                        ">>" => x >> y,
                         bool_op => {
                             let bool_val = match bool_op {
                                 ">" => x > y,
